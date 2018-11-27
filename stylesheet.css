@@ -26,17 +26,6 @@
 	border: 5px black;
 }
 
-.a{
-	grid-column-start: 1;
-	grid-column-end: span 3;
-}
-
-.b {
-   grid-column-start: 4;
-	grid-column-end: span 3;
-}
-
-
 .instagramlogo {
 	border-style: black 2px dotted;
 }
@@ -78,26 +67,14 @@ header{
 .grid_instafacts{
 	display:grid;  
 	border: 5px;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 2px;
  
 	}
 
-.c{
-	grid-column-start:3;
-	grid-column-end: span 6;	
-}
-
-.d{
-	grid-column-start:3;
-	grid-column-end: span 6;	
-}
-
 /*snapchat facts*/
 
-.snapbackground{
-	background-image: url ("images/snapbackground.png");
-}
+
 
 .grid_snapfacts{
 	display:grid;  
@@ -106,14 +83,16 @@ header{
 	grid-gap: 50px;
 }
 
-.e{
-	grid-column-start: 1;
-	grid-column-end: span 2;
+.colspan1{
+	grid-column: span 1;
 }
 
-.f{
-	grid-column-start:2
-	grid-column-end: span 3;
+.colspan2{
+	grid-column: span 2;
+}
+
+.colspan3{
+	grid-column: span 3;
 }
 
 /*what to do*/
@@ -126,17 +105,6 @@ header{
 	grid-gap: 7px;
 }
 
-.h{
-	grid-column-start: 1;
-	grid-column-end: span 3;
-}
-
-
-.i{
-	grid-column-start: 1;
-	grid-column-end: span 3;
-}
-
 .appstore2{
 	display:grid;  
 	border: 5px;
@@ -144,21 +112,12 @@ header{
 	grid-row-gap: 1px;
 	grid-gap: 7px;
 }
-	
-	.h{
-	grid-column-start: 1;
-	grid-column-end: span 2;
+
+.whyinsta{
+display:grid;  
+	border: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-row-gap: 1px;
+	grid-gap: 7px;
 }
-
-
-.i{
-	grid-column-start: 3;
-	grid-column-end: span 4;
-}
-
-.j{
-	grid-column-start:6;
-	grid-column-end: span 7;
-}
-
 
